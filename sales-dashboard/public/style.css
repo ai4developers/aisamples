@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f8f9fa;
+  color: #333;
+}
+h1 { text-align: center; }
+.container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.table-container {
+  flex: 1;
+  min-width: 300px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th { background: #007bff; color: #fff; }
+.chart-container {
+  flex: 2;
+  min-width: 400px;
+}
